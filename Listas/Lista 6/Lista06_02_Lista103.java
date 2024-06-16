@@ -1,8 +1,3 @@
-/*(Lista6_02_Lista1_03) Construa um programa em Java para ler (via teclado) quatro números do tipo
-inteiro, calcule e mostre o resultado da média aritmética entre eles. Usar “float” para o tipo
-de dado da variável que irá armazenar o resultado da média aritmética e imprimir o resultado
-com duas casas decimais depois da vírgula (%.2f).*/
-
 package Lista6;
 
 import java.util.Scanner;
