@@ -3,7 +3,7 @@ package Lista7;
 import java.util.Scanner;
 
     public class TocaCD{
-        public static void main(String[] args) throws Exception {
+        public static void main(String[] args){
             Scanner read = new Scanner(System.in);
 
             System.out.print("Informe o número de músicas do CD: ");
