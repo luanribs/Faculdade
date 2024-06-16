@@ -1,7 +1,3 @@
-/*Construa um programa em Java para ler um valor, verificar se é par
-ou ímpar e mostrar essa informação. (DICA: Usar if/else e o operador aritmético % para
-mostrar se valor é par ou ímpar. Ex. (valor % 2 == 0) é par...)*/
-
 package Lista6;
 
 import java.util.Scanner;
