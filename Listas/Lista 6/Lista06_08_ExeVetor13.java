@@ -1,7 +1,3 @@
-/*Faça um programa que leia dois vetores (A e B) de 30 posições e crie um
-terceiro (C) com a intersecção dos dois primeiros, isto é, coloque em C apenas os
-elementos que coexistem em A e B. Mostre C.*/
-
 package Lista6;
 
 import java.util.Scanner;
