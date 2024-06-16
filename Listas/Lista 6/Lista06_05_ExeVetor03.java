@@ -1,6 +1,3 @@
-/*Preencher um vetor X de 10 elementos (índices de 0 a 9) em tempo de
-execução com o valor inteiro 30. Escrever o vetor X após seu total preenchimento.*/
-
 package Lista6;
 
 public class Lista06_05_ExeVetor03 {
