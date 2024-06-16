@@ -1,6 +1,3 @@
-/*Construa um programa em Java para ler dois valores e mostrar o
-maior deles. (DICA: Usar if/else para mostrar o maior dos valores digitados)*/
-
 package Lista6;
 
 import java.util.Scanner;
