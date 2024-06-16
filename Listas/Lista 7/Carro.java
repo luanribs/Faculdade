@@ -6,7 +6,7 @@ public class Carro {
     private String modelo;
     private Propietario propietario;
 
-    public Carro(String numPlaca, String cor, String modelo, Propietario proprietario) {
+    public Carro(String numPlaca, String cor, String modelo, Propietario propietario) {
         this.numPlaca = numPlaca;
         this.cor = cor;
         this.modelo = modelo;
@@ -37,11 +37,11 @@ public class Carro {
         this.modelo = modelo;
     }
 
-    public Propietario getProprietario() {
+    public Propietario getPropietario() {
         return this.propietario;
     }
 
-    public void setProprietario(Propietario proprietario) {
+    public void setPropietario(Propietario propietario) {
         this.propietario = proprietario;
     }
 
