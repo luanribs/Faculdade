@@ -21,7 +21,7 @@ public class Quadrado {
 
     public double getDiagonalQuadrado() {
         double valorRaizDeDoiz = 1.414;
-        return ladoDoQuadrado * valorRaizDeDoiz;
+        return ladoDoQuadrado * valorRaizDeDois;
     }
 }
 
