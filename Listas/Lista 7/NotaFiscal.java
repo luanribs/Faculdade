@@ -11,6 +11,8 @@ public class NotaFiscal {
         this.item3 = item3;
     }
 
+    /* era mais facil fazer um array pros item mas queria terminar rapido */
+
     public double calcularValorTotalDaNota() {
         return
                 (item1.calcularValorTotalDosItens(item1.getPrecoUnitario(), item1.getQuantidade(), item1.calcularValorDaICMS(item1.getICMS(), item1.getPrecoUnitario() * item1.getQuantidade()))) +
