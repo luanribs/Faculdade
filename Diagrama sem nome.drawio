@@ -1,0 +1,181 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0 (Edition std-2)" version="26.0.16">
+  <diagram name="Página-1" id="Fm6R2egq9dyh7JTMpylR">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Início" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="567" width="99" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Definir objetos" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="279" y="567" width="137" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Escolha de opções" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="599" y="502" width="184" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Ligar Rádio" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="914" y="8" width="134" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Imprimir status" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1339" y="109" width="169" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Desligar Rádio" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="903" y="253" width="156" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Imprimir status" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1339" y="370" width="169" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Trocar Música" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="905" y="519" width="151" height="151" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Escolher opção" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="567" width="167" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Executar troca de música" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1716" y="476" width="236" height="236" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Imprimir status" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="836" width="169" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Ver Música Atual" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="895" y="720" width="171" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Imprimir música atual" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="849" width="217" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Sair" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1006" width="81" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Encerrar programa" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1327" y="1019" width="194" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Fim" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="1019" width="86" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="Iniciar programa" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0;entryY=0.51;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="Criar objeto radio" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0;entryY=0.5;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="Opção 1" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="839" y="75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="Executar método ligar()" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.09;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1191" y="75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="Voltar para escolha de opções" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.91;entryX=0.69;entryY=0;" edge="1" parent="1" source="6" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1191" y="197" />
+              <mxPoint x="839" y="197" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="Opção 2" style="curved=1;startArrow=none;endArrow=block;exitX=0.78;exitY=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="839" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="Executar método desligar()" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.05;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1191" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="Voltar para escolha de opções" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.94;entryX=1;entryY=0.06;" edge="1" parent="1" source="8" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1191" y="463" />
+              <mxPoint x="839" y="463" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" value="Opção 3" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="Imprimir lista de músicas" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.51;" edge="1" parent="1" source="9" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" value="Selecionar música" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0;entryY=0.5;" edge="1" parent="1" source="10" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29" value="Chamar método trocarMusica()" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.4;entryY=0.01;" edge="1" parent="1" source="11" target="12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2036" y="594" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" value="Voltar para escolha de opções" style="curved=1;startArrow=none;endArrow=block;exitX=0.4;exitY=1.01;entryX=0.64;entryY=1;" edge="1" parent="1" source="12" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2036" y="1129" />
+              <mxPoint x="839" y="1129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31" value="Opção 4" style="curved=1;startArrow=none;endArrow=block;exitX=0.85;exitY=1;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="839" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32" value="Chamar método getMusicaAtual()" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.09;entryY=0;" edge="1" parent="1" source="13" target="14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1191" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33" value="Voltar para escolha de opções" style="curved=1;startArrow=none;endArrow=block;exitX=0.09;exitY=1;entryX=0.71;entryY=1;" edge="1" parent="1" source="14" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1191" y="946" />
+              <mxPoint x="839" y="946" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34" value="Opção 0" style="curved=1;startArrow=none;endArrow=block;exitX=0.66;exitY=1;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="839" y="1046" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35" value="Desligar rádio" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="15" target="16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36" value="Fechar programa" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="16" target="17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
