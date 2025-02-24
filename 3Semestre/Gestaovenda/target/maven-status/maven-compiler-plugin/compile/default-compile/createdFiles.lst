@@ -1,0 +1,10 @@
+com\mycompany\model\connection\ConexaoPostgres.class
+com\mycompany\model\domain\Categoria.class
+com\mycompany\model\domain\Perfil.class
+com\mycompany\model\connection\Conexao.class
+com\mycompany\model\domain\Usuario.class
+com\mycompany\model\domain\Venda.class
+com\mycompany\model\domain\Cliente.class
+com\mycompany\model\domain\VendaItem.class
+com\mycompany\model\domain\Produto.class
+com\mycompany\model\connection\ConexaoMysql.class

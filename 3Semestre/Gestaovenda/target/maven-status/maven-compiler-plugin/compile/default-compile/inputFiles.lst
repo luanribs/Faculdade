@@ -1,0 +1,11 @@
+C:\Users\Luan\Documents\NetBeansProjects\Gestaovenda\src\main\java\com\mycompany\controller\Main.java
+C:\Users\Luan\Documents\NetBeansProjects\Gestaovenda\src\main\java\com\mycompany\model\connection\Conexao.java
+C:\Users\Luan\Documents\NetBeansProjects\Gestaovenda\src\main\java\com\mycompany\model\connection\ConexaoMysql.java
+C:\Users\Luan\Documents\NetBeansProjects\Gestaovenda\src\main\java\com\mycompany\model\connection\ConexaoPostgres.java
+C:\Users\Luan\Documents\NetBeansProjects\Gestaovenda\src\main\java\com\mycompany\model\domain\Categoria.java
+C:\Users\Luan\Documents\NetBeansProjects\Gestaovenda\src\main\java\com\mycompany\model\domain\Cliente.java
+C:\Users\Luan\Documents\NetBeansProjects\Gestaovenda\src\main\java\com\mycompany\model\domain\Perfil.java
+C:\Users\Luan\Documents\NetBeansProjects\Gestaovenda\src\main\java\com\mycompany\model\domain\Produto.java
+C:\Users\Luan\Documents\NetBeansProjects\Gestaovenda\src\main\java\com\mycompany\model\domain\Usuario.java
+C:\Users\Luan\Documents\NetBeansProjects\Gestaovenda\src\main\java\com\mycompany\model\domain\Venda.java
+C:\Users\Luan\Documents\NetBeansProjects\Gestaovenda\src\main\java\com\mycompany\model\domain\VendaItem.java
